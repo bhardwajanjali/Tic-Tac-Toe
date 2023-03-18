@@ -1,0 +1,97 @@
+.title{
+    text-align: center;
+}
+  h1{
+      background-color:#ff8c00;
+  }
+  #title{
+      color:rgb(238, 16, 16);
+      font-family:'Ultra', sans-serif;
+      font-weight: bold;
+      text-shadow: 0 2px rgb(73, 126, 133), 0 3px #777;
+      font-size: 40px;
+      border-radius: 5px;
+      background-color: rgba(34, 4, 10, 0.712);
+  }
+  #button{
+      color: rgba(128, 0, 70, 0.849);
+      background-color: yellow;
+      border:3px double black;
+      font-size: 30px;
+      font-weight: bolder;
+      box-shadow: yellowgreen;
+      text-shadow: 0 2px rgb(248, 164, 164), 0 3px #777;
+  }
+  button:hover{
+      transform:scale(0.96);
+  }
+  body{
+    background-color:#f06d30;
+    font-family: sans-serif;
+  }
+  a{
+      text-decoration:none;
+  }
+  #reset{
+    background-color: rgb(98, 0, 255);
+    color:white;
+    font-size:25px;
+    border:1px solid black;
+    font-weight:bolder;
+    cursor:pointer;
+    padding:8px 8px;
+    margin:2px;
+    position:absolute;
+    top:80%;
+    left:45%;
+}
+#top-lefts {
+    position:fixed;
+    top: 1px;
+    left: 16px;
+    font-size:35px;
+}
+.top-left{
+    position:fixed;
+    top:1%;
+    left:37%;
+    font-size:35px;
+    text-align: center;
+    justify-content: center;
+}
+#home{
+    color:yellow;
+}
+#newh{
+    text-align:center;
+}
+#msgsec{
+    height:70px;
+    text-align:center;
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.game{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    height:300px;
+}
+.row{
+    height:32%;
+}
+.col{
+    height:100%;
+    width:32%;
+    border:2px solid rgb(14, 11, 11);
+    float:left;
+    font-size:70px;
+    font-weight:bolder;
+    color:white;
+    text-align:center;
+    cursor:pointer;
+}
+
